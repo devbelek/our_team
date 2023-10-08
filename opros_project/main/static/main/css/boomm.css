@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    background: url('/static/main/img/bg.jpg');
+}
+
+/* Стили для заголовка */
+#header {
+  background-color: #333; /* Цвет фона заголовка */
+  color: white; /* Цвет текста заголовка */
+  padding: 10px 0; /* Внутренние отступы заголовка */
+}
+
+/* Стили для контейнера заголовка */
+.container {
+  max-width: 800px; /* Максимальная ширина контейнера */
+  margin: 0 auto; /* Выравнивание по центру */
+  display: flex; /* Располагаем дочерние элементы в одной линии */
+  justify-content: space-between; /* Располагаем элементы по краям контейнера */
+}
+
+/* Стили для ссылок в заголовке */
+.header a {
+  color: white; /* Цвет текста ссылок */
+  text-decoration: none; /* Убираем подчеркивание текста */
+  margin-right: 20px; /* Внешний отступ между ссылками */
+}
+
+/* Стили для последней ссылки (Чат) */
+.header a:last-child {
+  margin-right: 0; /* Убираем внешний отступ справа у последней ссылки */
+}
+
+/* Стили для ссылок при наведении */
+.header a:hover {
+  text-decoration: underline; /* Подчеркиваем текст при наведении */
+}
+
+.video-bg {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: auto;
+
+}
+
+.ar {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: auto;
+
+}
+
+
+.video-bg video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.effects {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.video-bg__content {
+    z-index: 2;
+    color: #ffffff;
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+}
+
+.brf-biy {
+    display: flex;
+}
+
+.brf-bif {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+
+/* to */
+
+
+.heder {
+    display: block;
+}
+
+.ndnd {
+    height: 388px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text {
+    animation: 3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px 42px;
+    font-size: 68px;
+    width: auto;
+}
+
+#background .contact {
+
+    margin-top: 230px;
+}
+
+p {
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+}
+
+.foot h2 {
+    color: #fff;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    flex-shrink: 0;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 60px 60px 60px 60px;
+    font-weight: 600;
+}
+
+.foot p {
+    color: #fff;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    flex-shrink: 0;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 60px 60px 60px 60px;
+    font-weight: 600;
+}
+
+.foot {
+    height: 94px;
+    flex-shrink: 0;
+    border-radius: 17px;
+    background: radial-gradient(128.99% 141.42% at 0% 0%, rgba(99, 99, 99, 0.58) 0%, rgba(99, 99, 99, 0.58) 100%);
+    backdrop-filter: blur(5px);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fade-down {
+    align-items: center;
+    justify-content: center;
+}
+
+.fjfj {
+    display: flex;
+    flex-direction: row-reverse;
+
+    margin-right: 50px;
+    align-items: center;
+}
+
+.fjfj img {
+    border-radius: 50%;
+    width: 380px;
+    padding: 20px;
+}
+
+.boom {
+    display: flex;
+
+    margin: 50px;
+    justify-content: start;
+    align-items: center;
+}
+
+.boom img {
+    width: 350px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.base {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.base {
+    margin: 0 50px;
+}
+
+.base img {
+    border-radius: 50%;
+}
+
+.hg-jf {
+    width: 500px;
+}
+
+.hg-jg {
+    width: 650px;
+}
+
+.transform {
+    display: flex;
+    justify-content: center;
+}
+
+.alkysh h5 {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.ext {
+    border: #daa0a0;
+    justify-content: start;
+}
+
+.chat {
+    display: flex;
+    justify-content: center;
+}
+
+/* Стили для кнопки начать чат */
+.chat button {
+    background-color: #4CAF50;
+    /* Цвет фона кнопки */
+    color: white;
+    /* Цвет текста */
+    padding: 10px 20px;
+    /* Внутренние отступы кнопки */
+    border: none;
+    /* Убираем границу кнопки */
+    border-radius: 5px;
+    /* Закругленные углы */
+    text-decoration: none;
+    /* Убираем подчеркивание текста */
+    cursor: pointer;
+    /* Изменяем курсор при наведении */
+}
+
+/* Стили для ссылки внутри кнопки */
+.chat button a {
+    color: white;
+    /* Цвет текста ссылки */
+    text-decoration: none;
+    /* Убираем подчеркивание текста */
+}
+
+/* Стили для кнопки при наведении */
+.chat button:hover {
+    background-color: #45a049;
+    /* Изменяем цвет фона при наведении */
+}
+
+@media (max-width: 1200px) {
+    .effects {
+        width: 100%;
+        height: 100%;
+    }
+
+    .text {
+        font-size: 54px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .text {
+        font-size: 54px;
+    }
+}
+
+@media (max-width: 992px) {
+    .effects {
+        position: absolute;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        width: 100%;
+        height: 79%;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .video-bg video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        height: 79vh;
+    }
+
+    .text {
+        animation: 3s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 150px 42px;
+        font-size: 40px;
+        width: auto;
+    }
+}
+
+@media (max-width: 778px) {
+    .video-bg {
+        height: 64vh;
+        width: 129%;
+    }
+
+    .video-bg video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        height: 51vh;
+    }
+
+    .foot1 {
+        width: auto;
+    }
+
+    .text {
+        animation: 3s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 41px 46px;
+        font-size: 42px;
+        width: auto;
+    }
+
+    .fjfj {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-right: -178px;
+    }
+
+    .alkysh {
+        width: auto;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .fjfj {
+        margin-right: -328px;
+    }
+
+    .video-bg {
+        height: 66vh;
+        width: 144%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+}
+
+@media (max-width: 576px) {
+    .video-bg {
+        height: 66vh;
+        width: 168%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+}
+
+@media (max-width: 450px) {
+    .video-bg {
+        height: 65vh;
+        width: 210%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+
+    .fjfj {
+        margin-right: -457px;
+
+    }
+}
+
+@media (max-width: 425px) {
+    .video-bg {
+        height: 65vh;
+        width: 204%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+}
+
+@media (max-width: 415px) {
+    .video-bg {
+        height: 64vh;
+        width: 233%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+}
+
+@media (max-width: 388px) {}
+
+@media (max-width: 350px) {
+    .video-bg {
+        height: 65vh;
+        width: 237%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .fjfj {
+        margin-right: -390px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .video-bg {
+        height: 65vh;
+        width: 400%;
+    }
+
+    .fjfj {
+        margin-right: -812px;
+    }
+
+    .transform p {
+        display: flex;
+        justify-content: center;
+    }
+
+    .transform {
+        display: flex;
+        align-items: center;
+        font-size: 11px;
+    }
+
+    .alkysh {
+        display: flex;
+        align-items: center;
+        font-size: 11px;
+        width: auto;
+    }
+}
+
+@media (max-width: 274px) {
+    .fjfj {
+        margin-right: -676px;
+    }
+
+}
+
+/* Добавьте стили для маленьких экранов (мобильные устройства) */
+@media (max-width: 767px) {
+    /* Добавьте свои стили для маленьких экранов здесь */
+}
+
+/* Добавьте стили для средних и больших экранов (планшеты и десктопы) */
+@media (min-width: 768px) {
+    /* Добавьте свои стили для средних и больших экранов здесь */
+}
